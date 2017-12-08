@@ -1,0 +1,53 @@
+body{
+    color: #ffffff;
+    background-image: url("../images/steel.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+a{
+    color: #ffffff;
+    padding: 0px 10px 0px 10px;
+    font-size: 120%;
+    text-decoration-color: blueviolet;
+    text-transform: uppercase;
+}
+aihover {
+    color: #0000ff;
+    text-decoration: underline;
+    text-decoration-color: #ff0000;
+}
+a:visited{
+    
+}
+input#submit{
+    width: 100px;
+    margin-left: 10px;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
